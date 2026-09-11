@@ -6,3 +6,5 @@
 *.html
 *.pdf
 *_files/
+*.log
+*.tex
