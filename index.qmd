@@ -65,7 +65,7 @@ packages_required <- c(
   # Add specific packages here
   "divent",
   "tidyverse", 
-  "vegan" 
+  "vegan"
 )
 # Already installed?
 packages_installed <- vapply(
