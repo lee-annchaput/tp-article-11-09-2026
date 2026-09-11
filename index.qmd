@@ -122,6 +122,11 @@ set.seed(973)
 
 # Introduction
 
+- La question de la diversité des forêts tropicales fascine les écologues parce qu'elle a des enjeux très importants [@Gibson2011].
+  est qu'elle est difficile à comprendre [@Wright2002b].
+
+- A l'heure des menaces sur la biodiversité [@Fadrique2026], une connaissance plus détaillée de la diversité des forêts très étudiées est utile.
+
 # Matériel et méthodes
 
 - Présentation du site de Paracou
@@ -131,6 +136,10 @@ set.seed(973)
 library("tidyverse")
 paracou6 <- read_csv2("data/Paracou6.csv")
 ```
+
+La forêt de Paracou est un dispositif de placettes forestières d'environ 120ha géré par le Cirad (UMR EcoFoG).
+Située en Guyane française, ce dispositif permanent permet un suivi temporel des placettes.
+Celles-ci présentent différents niveaux de gestion forestière.
 
 - Présentation du site de BCI
 
@@ -148,6 +157,8 @@ BCI %>%
   metacommunity() ->
   BCI_50ha
 ```
+
+- BCI est une forêt secondarisée [@Raby2017].
 
 # Résultats
 
@@ -173,3 +184,9 @@ paracou6 %>%
 ```
 
 # Discussion
+
+- @MacArthur1967 montrent mathématiquement que la richesse spécifique (le nombre d'espèces) d'une île est un équilibre dynamique entre le taux d'immigration et le taux d'extinction, ce dernier étant directement dicté par la taille de l'île.
+
+- Des modèles ont été publiés [@Liang2022].
+
+- Sa diversité pourrait être augmentée selon la théorie de la perturbation intermédiaire [@Connell1978].
