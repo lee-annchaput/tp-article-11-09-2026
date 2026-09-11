@@ -8,3 +8,4 @@
 *_files/
 *.log
 *.tex
+index_cache/
