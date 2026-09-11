@@ -1,5 +1,5 @@
 ---
-title: "Demo Stylish Article"
+title: "Diversité entre Paracou et BCI"
 # Output formats
 format:
   stylisharticle-pdf:
@@ -168,6 +168,7 @@ BCI %>%
 
 # Résultats
 
+::: {#fig-Profils}
 ```{r}
 #| label: Profils
 paracou6 %>% 
@@ -186,8 +187,14 @@ paracou6 %>%
   # Figure
   autoplot() +
   # Titre de la légende
-  labs(color = "Forêt", linetype = "Forêt")
+  labs(color = "Forêt", linetype = "Forêt") +
+  #Suppression de la légende
+  theme(legend.position = "none")
 ```
+
+Profils de diversité de Paracou parcelle 6 courbe bleue et BCI courbe rouge.
+La figure représente le nombre effectif d'espèce (nombre de Hill) en fonction de l'ordre de la diversité.
+:::
 
 # Discussion
 
