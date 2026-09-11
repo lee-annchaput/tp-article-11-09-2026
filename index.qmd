@@ -3,7 +3,7 @@ title: "Demo Stylish Article"
 # Output formats
 format:
   stylisharticle-pdf:
-    keep-tex: false
+    keep-tex: true
     # Color example, see "Text color"
     header-includes:
       \definecolor{grey}{RGB}{191, 191, 191}
